@@ -246,7 +246,7 @@ h2 { color: #ffc107; }
 
 div#parallax1 {
 
-  background-image: url(Silhouttes.png);
+  background-image: url('silhouttes.png');
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
