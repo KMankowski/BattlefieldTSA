@@ -1,0 +1,476 @@
+@charset 'utf-8';
+
+/* MISC. */
+
+html {
+
+	background: transparent;
+
+}
+
+body, html {
+
+    height: 100%;
+
+}
+
+h2 {
+
+	padding-top: 7vh;
+
+}
+
+div.container::after {
+
+	content: '';
+	display: block;
+	margin-top: 7vh;
+
+}
+
+audio {
+
+	display: block;
+	margin: 3vh auto;
+
+}
+
+div.layover {
+
+	position: relative;
+	width: 100%;
+
+}
+
+div.layover h3 {
+
+	position: absolute;
+	bottom: 1vh;
+	right: 1vw;
+	padding: 2% 3%;
+	background: hsla(16, 88%, 54%, .75);
+	border-radius: 50%;
+
+}
+
+div.jumbotron {
+
+	padding: 5vh 5vh;
+
+}
+
+div#about h3 {
+
+	padding: 1vh 0;
+
+}
+
+
+/* NAV STYLES */
+
+#first {
+
+	margin-left: 8vw;
+
+}
+
+#last {
+
+	margin-right: 8vw;
+
+}
+
+nav li.special-nav:nth-of-type(2) {
+
+	padding-right: 1vw;
+
+}
+
+a#TSA-header + a {
+
+	margin-left: .5vw;
+
+}
+
+nav li.special-nav a {
+
+	background-color: hsla(16, 88%, 54%, 1) !important;
+    -o-transition:.65s;
+    -ms-transition:.65s;
+    -moz-transition:.65s;
+	-webkit-transition:.65s;
+
+}
+
+a.blue:hover {
+
+	color: hsla(16, 88%, 54%, 1) !important;
+	background-color: white !important;
+
+}
+
+div#navbar-container {
+
+	border-bottom: 1px solid black;
+
+}
+
+li.special-nav:first-of-type {
+
+	padding-right: 1vw;
+
+}
+
+/* Fancy Nav Effects */
+
+li.normal-nav {
+
+	margin-top: .8vh;
+	display: inline-block;
+	position: relative !important;
+
+}
+
+li.normal-nav > a::after {
+
+	content: '';
+	display: block;
+	margin-top: .4vh;
+	height: 2px;
+	width: 0%;
+	background-color: white;
+	transition: all ease-in-out 250ms;
+
+}
+
+li.normal-nav > a:hover::after {
+
+	width: 100%;
+
+}
+
+li.normal-nav > a:hover {
+
+	color: white !important;
+
+}
+
+li.normal-nav > a.active-navlink::before {
+
+	content: '';
+	display: block;
+	margin-bottom: .4vh;
+	height: 2px;
+	width: 100%;
+	background-color: white;
+
+}
+
+
+/* PAGE HEADER */
+
+
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+
+	h1 {
+
+		font-size: 25px;
+
+	}
+
+	h2 {
+
+		font-size: 18px;
+
+	}
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	h1 {
+
+		font-size: 50px;
+
+	}
+
+	h2 {
+
+		font-size: 32px;
+
+	}
+
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	h1 {
+
+		font-size: 65px;
+
+	}
+
+	h2 {
+
+		font-size: 41px;
+
+	}
+
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+
+	h1 {
+
+		font-size: 78px;
+
+	}
+
+	h2 {
+
+		font-size: 50px;
+
+	}
+
+}
+
+/* ABOUT SECTION */
+
+h3 { color: hsla(16, 88%, 54%, 1); }
+h2 { color: #ffc107; }
+
+
+/* PARALLAX 1 STYLES */
+
+div#parallax1 {
+
+  background-image: url(Silhouttes.png);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/* TOUR SECTION */
+
+div#tour h2 {
+
+	text-align: center !important;
+	display: block;
+	width: 100%;
+
+}
+
+div#tour {
+
+	background: linear-gradient(to bottom right, #fff3e0, #ffe0b2);
+
+}
+
+div#holder1 a {
+
+	color: hsla(16, 88%, 54%, 1) !important;
+	border-color: hsla(16, 88%, 54%, 1) !important;
+
+}
+
+div#holder1 a:hover {
+
+	background-color: hsla(16, 88%, 54%, 1) !important;
+	color: white !important;
+
+}
+
+div#holder1 h4 {
+
+	font-family: sans-serif;
+
+}
+
+div#tour div.jumbotron {
+
+	background-color: #fff3e0;
+	padding: 2vh 1vw;
+
+}
+
+div#tour h3 a {
+
+	color: hsla(16, 88%, 54%, 1) !important;
+
+}
+
+div#tour h3 a:hover {
+
+	text-shadow: 1px 1px #ffc107 !important;
+
+}
+
+
+/* PARALLAX 2 STYLES */
+
+div#parallax2 {
+
+  background-image: url(Band_group.png);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/* MEET SECTION */
+
+div#meet h2 { padding-top: 8vh; padding-bottom: 2vh; }
+
+div#meet hr { width: 60%; padding-bottom: 3vh; }
+
+div#meet {  }
+
+div#meet h2 { padding-top: 8vh; padding-bottom: 2vh; }
+
+div#meet hr { width: 60%; padding-bottom: 3vh; }
+
+div#yeet {
+
+	border-top: 1px inset hsla(243, 75%, 99.5%, .35);
+	
+
+}
+
+div#meet h2 {
+
+	padding-top:  3vh;
+
+}
+
+.padding-0 {
+
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+
+}
+
+div#meet div.row p {
+
+	padding: 0 1vw;
+
+}
+
+.slow {
+
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 3s;
+
+}
+
+
+div#meet h3, div#meet h2 {
+
+	color: hsla(16, 88%, 54%, 1);
+
+}
+
+div#meet p {
+
+	font-size: 120%;
+
+}
+
+
+
+/* PARALLAX 3 */
+
+div#parallax3 {
+
+  background-image: url(RecordingStudio.png);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/* CONTACT SECTION */
+
+div#contact {
+
+	background: linear-gradient(to top right, #fdb353, #ffc107);
+
+}
+
+div#contact::after {
+
+	display: table;
+	content: '';
+	clear: both;
+
+}
+
+div#contact div.col-md-6 {
+
+	display: table;
+	content: '';
+	clear: both;
+
+}
+
+div#contact button {
+
+	background: radial-gradient(#ffc107 10%, hsla(16, 88%, 54%, 1));
+	display: block;
+	margin: 0 auto;
+
+
+}
+
+div#contact button:hover {
+
+	color: hsla(16, 88%, 54%, 1);
+
+}
+
+div#contact {
+
+	background: url(WernickeBrain.jpg) round;
+
+}
+
+div#contact h3 {
+
+	text-shadow: white 2px 2px 3px;
+
+}
+
+div#contact p {
+
+	text-shadow: white 1px 1px 1px;
+
+}
+
+/* FOOTER STYLES */
+
+h5#sources_link {
+
+	font-size: 175% !important;
+	text-align: center !important;
+	vertical-align: middle;
+
+}
+
+footer a:hover {
+
+	text-shadow: 2px 2px black;
+
+}
+
+

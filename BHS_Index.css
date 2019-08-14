@@ -1,0 +1,478 @@
+@charset 'utf-8';
+
+/* MISC. */
+
+html {
+
+	background: transparent;
+
+}
+
+body, html {
+
+    height: 100%;
+
+}
+
+body { position: relative; }
+
+h2 {
+
+	padding-top: 7vh;
+
+}
+
+div.container::after {
+
+	content: '';
+	display: block;
+	margin-top: 7vh;
+
+}
+
+div.layover {
+
+	position: relative;
+	width: 100%;
+
+}
+
+div.layover h3 {
+
+	position: absolute;
+	bottom: 1vh;
+	right: 1vw;
+	padding: 2% 3%;
+	background: rgba(170, 102, 255, .5);
+	border-radius: 50%;
+
+}
+
+/* NAV STYLES */
+
+#first {
+
+	margin-left: 8vw;
+
+}
+
+#last {
+
+	margin-right: 8vw;
+
+}
+
+a#TSA-header + a {
+
+	margin-left: .5vw;
+
+}
+
+nav li.special-nav a {
+
+	background-color: hsl(283, 88%, 20%) !important;
+    -o-transition:.65s;
+    -ms-transition:.65s;
+    -moz-transition:.65s;
+	-webkit-transition:.65s;
+
+}
+
+a.blue:hover {
+
+	color: hsl(283, 88%, 20%) !important;
+	background-color: white !important;
+
+
+}
+
+div#navbar-container {
+
+	border-bottom: 1px solid black;
+
+}
+
+li.special-nav:first-of-type {
+
+	padding-right: 1vw;
+
+}
+
+/* Fancy Nav Effect */
+
+li.normal-nav {
+
+	margin-top: .8vh;
+	display: inline-block;
+	position: relative !important;
+
+}
+
+li.normal-nav > a::after {
+
+	content: '';
+	display: block;
+	margin-top: .4vh;
+	height: 2px;
+	width: 0%;
+	background-color: white;
+	transition: all ease-in-out 250ms;
+
+}
+
+li.normal-nav > a:hover::after {
+
+	width: 100%;
+
+}
+
+li.normal-nav > a:hover {
+
+	color: white !important;
+
+}
+
+nav.navbar a.active { color: yellow; }
+
+/* PAGE HEADER */
+
+div#page-head h1 {
+
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+div#page-head {
+
+	padding-top: 21%;
+	padding-bottom: 21%;
+
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+
+	h1 {
+
+		font-size: 25px;
+
+	}
+
+	h2 {
+
+		font-size: 18px;
+
+	}
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	h1 {
+
+		font-size: 50px;
+
+	}
+
+	h2 {
+
+		font-size: 32px;
+
+	}
+
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	h1 {
+
+		font-size: 65px;
+
+	}
+
+	h2 {
+
+		font-size: 41px;
+
+	}
+
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+
+	h1 {
+
+		font-size: 78px;
+
+	}
+
+	h2 {
+
+		font-size: 50px;
+
+	}
+
+}
+
+/* ABOUT SECTION */
+
+div#about h2 {
+
+	margin-top: 5vh;
+	margin-bottom: 4vh;
+
+}
+
+h2 { color: magenta; }
+h3 { color: hotpink; }
+h4 { color: #886ce0; }
+
+
+/* PARALLAX 1 */
+
+div#parallax1 {
+
+  background-image: url("Battlefield.png");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/* COURSES SECTION */
+
+div.accordion button.btn h4 {
+
+	text-transform: capitalize;
+	font-size: 175%;
+
+}
+
+div.accordion button.btn p {
+
+	text-transform: none;
+
+}
+
+div.accordion div.row {
+
+	display: flex;
+	justify-content: space-between;
+
+}
+
+div.accordion button {
+
+	background: white;
+	-o-transition:.65s;
+    -ms-transition:.65s;
+    -moz-transition:.65s;
+	-webkit-transition:.65s;
+	text-decoration: none;
+
+}
+
+div.accordion button:visited, div.accordion button:link, div.accordion button:active {
+
+	text-decoration: none !important;
+
+}
+
+div.accordion button:hover, div.accordion button:active, div.accordion button:link, div.accordion button:visited {
+
+	text-decoration: none !important;
+
+}
+
+div.accordion div.card:hover, div.accordion div.card:active, div.accordion div.card:link, div.accordion div.card:visited {
+
+	text-decoration: none !important;
+
+}
+
+div.accordion a:hover, div.accordion a:active, div.accordion a:link, div.accordion a:visited {
+
+	text-decoration: none !important;
+
+}
+
+
+div.accordion button[aria-expanded = 'true'] {
+
+	text-decoration: none !important;
+
+}
+
+div.accordion div.card {
+
+	width: 15vw;
+	height: 25vh;
+
+}
+
+div.accordion div.button {
+
+	width: 15vw;
+	height: 10vh;
+
+}
+
+
+div.accordion::after {
+
+	display: table;
+	content: '';
+	clear: both;
+
+}
+
+div.accordion h4 {
+
+	font-size: 163% !important;
+
+}
+
+h3.numbered {
+
+	background-color: rgba(170, 102, 204, .75);
+	border-radius: 50%;
+	height: 2.75em;
+	width: 2.75em;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-shadow: 1px 1px hotpink;
+	font-size: 275%;
+	padding: 3.6vh 0;
+
+}
+
+
+
+/* PARALLAX 2 */
+
+div#parallax2 {
+
+	background-image: url("Classroom.png");
+	height: 100%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/* INSTRUCTORS SECTION */
+
+div#staff div.col-md-3 {
+
+	float: left;
+
+}
+
+div#staff ol {
+
+	padding-top: 10vh;
+
+}
+
+div#staff div.card {
+
+	width: 400px;
+
+}
+
+
+/* PARALLAX 3 */
+
+div#parallax3 {
+
+	background-image: url("Robotics.png");
+	height: 100%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+/* PROJECTS STYLES */
+
+div#projects {
+
+	margin-top: 0;
+
+}
+
+div#projects ol {
+
+	background-color: rgba(0, 0, 0, 0);
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+div.carousel-caption {
+
+	background-color: rgba(0, 0, 0, .35);
+
+}
+
+div#projects img {
+
+	height: 70vh;
+
+}
+
+
+/* FOOTER STYLES */
+
+h5#sources_link {
+
+	font-size: 175% !important;
+	text-align: center !important;
+	vertical-align: middle;
+
+}
+
+footer a:hover {
+
+	text-shadow: 2px 2px black;
+
+}
+
+div.jumbotron {
+
+	padding: 5vh;
+
+}
+
+h3 {
+
+	font-size: 200%;
+	padding: 5vh 0 2vh;
+
+}
+
+h3.rekt {
+
+	padding-top: 5vh;
+
+}
+
+div#courses div.card-body p {
+
+	font-size: 150%;
+
+}
+
+
+
+
+
