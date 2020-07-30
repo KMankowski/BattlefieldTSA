@@ -233,7 +233,7 @@ h4 { color: #886ce0; }
 
 div#parallax1 {
 
-  background-image: url("Battlefield.png");
+  background-image: url("../images/battlefield/Battlefield.png");
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
@@ -357,7 +357,7 @@ h3.numbered {
 
 div#parallax2 {
 
-	background-image: url("Classroom.png");
+	background-image: url("../images/battlefield/Classroom.png");
 	height: 100%; 
 	background-attachment: fixed;
 	background-position: center;
@@ -391,7 +391,7 @@ div#staff div.card {
 
 div#parallax3 {
 
-	background-image: url("Robotics.png");
+	background-image: url("../images/battlefield/Robotics.png");
 	height: 100%; 
 	background-attachment: fixed;
 	background-position: center;

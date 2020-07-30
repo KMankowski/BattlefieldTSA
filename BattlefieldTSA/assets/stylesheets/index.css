@@ -230,7 +230,7 @@ div#about div.jumbotron {
 
 div#parallax1 {
 
-    background-image: url("TSA_Group1.jpg");
+    background-image: url("../images/home/TSA_Group1.jpg");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -303,7 +303,7 @@ div#leadership p {
 
 div#parallax2 {
 
-  background-image: url(TSA_room.png);
+  background-image: url("../images/home/TSA_room.png");
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
