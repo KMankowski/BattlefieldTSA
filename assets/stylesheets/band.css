@@ -246,7 +246,7 @@ h2 { color: #ffc107; }
 
 div#parallax1 {
 
-  background-image: url('../images/band/silhouttes.png');
+  background-image: url('../images/band/parallax/concert.png');
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
@@ -316,7 +316,7 @@ div#tour h3 a:hover {
 
 div#parallax2 {
 
-  background-image: url('../images/band/Band_group.png');
+  background-image: url('../images/band/parallax/group.png');
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
@@ -390,7 +390,7 @@ div#meet p {
 
 div#parallax3 {
 
-  background-image: url('../images/band/RecordingStudio.png');
+  background-image: url('../images/band/parallax/studio.png');
   height: 100%; 
   background-attachment: fixed;
   background-position: center;
@@ -441,7 +441,7 @@ div#contact button:hover {
 
 div#contact {
 
-	background: url('../images/band/WernickeBrain.jpg') round;
+	background: url('../images/band/logo/logo.jpg') round;
 
 }
 
