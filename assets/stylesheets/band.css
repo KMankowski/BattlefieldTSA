@@ -2,29 +2,9 @@
 
 /* MISC. */
 
-html {
-
-	background: transparent;
-
-}
-
-body, html {
-
-    height: 100%;
-
-}
-
 h2 {
 
 	padding-top: 7vh;
-
-}
-
-div.container::after {
-
-	content: '';
-	display: block;
-	margin-top: 7vh;
 
 }
 
@@ -163,76 +143,6 @@ li.normal-nav > a.active-navlink::before {
 	height: 2px;
 	width: 100%;
 	background-color: white;
-
-}
-
-
-/* PAGE HEADER */
-
-
-
-/* Extra small devices (phones, up to 480px) */
-@media screen and (max-width: 767px) {
-
-	h1 {
-
-		font-size: 25px;
-
-	}
-
-	h2 {
-
-		font-size: 18px;
-
-	}
-
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-
-	h1 {
-
-		font-size: 50px;
-
-	}
-
-	h2 {
-
-		font-size: 32px;
-
-	}
-
-}
-/* tablets/desktops and up ----------- */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-	h1 {
-
-		font-size: 65px;
-
-	}
-
-	h2 {
-
-		font-size: 41px;
-
-	}
-
-}
-/* large desktops and up ----------- */
-@media screen and (min-width: 1200px) {
-
-	h1 {
-
-		font-size: 78px;
-
-	}
-
-	h2 {
-
-		font-size: 50px;
-
-	}
 
 }
 
