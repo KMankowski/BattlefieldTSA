@@ -112,12 +112,6 @@ li.normal-nav > a::after {
 
 }
 
-li.normal-nav > a:hover::after {
-
-	width: 100%;
-
-}
-
 li.normal-nav > a:hover {
 
 	color: white !important;
@@ -132,6 +126,15 @@ li.normal-nav > a.active-navlink::before {
 	height: 2px;
 	width: 100%;
 	background-color: white;
+
+}
+
+/* Remove underlined links on smaller screen sizes. */
+@media screen and (min-width: 992px) {
+
+	li.normal-nav > a:hover::after {
+		width: 100%;
+	}
 
 }
 
